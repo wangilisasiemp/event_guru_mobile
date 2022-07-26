@@ -1,4 +1,4 @@
-package com.example.regform;
+package com.example.EventGuru;
 
 import org.junit.Test;
 

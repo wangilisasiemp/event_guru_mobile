@@ -1,4 +1,4 @@
-package com.example.regform;
+package com.example.EventGuru;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,11 +10,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import java.util.regex.Pattern;
+
+
 
 public class MainActivity extends AppCompatActivity {
     EditText firstName;
-    EditText lastName;;
+    EditText lastName;
     EditText email;
     EditText password;
     Button register;
