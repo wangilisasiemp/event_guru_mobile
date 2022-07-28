@@ -1,4 +1,4 @@
-package com.example.EventGuru;
+package com.paticom.eventguru;
 
 import org.junit.Test;
 

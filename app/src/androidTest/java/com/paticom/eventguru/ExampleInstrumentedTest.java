@@ -1,4 +1,4 @@
-package com.example.EventGuru;
+package com.paticom.eventguru;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("com.example.regform", appContext.getPackageName());
+        assertEquals("com.paticom.eventguru", appContext.getPackageName());
     }
 }

@@ -1,4 +1,4 @@
-package com.example.EventGuru;
+package com.paticom.eventguru;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -10,19 +10,12 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
-
-
-
 public class MainActivity extends AppCompatActivity {
     EditText firstName;
     EditText lastName;
     EditText email;
     EditText password;
     Button register;
-
-
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -43,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
     boolean isEmail(EditText text) {
         CharSequence email = text.getText().toString();
         return (!TextUtils.isEmpty(email) && Patterns.EMAIL_ADDRESS.matcher(email).matches());
